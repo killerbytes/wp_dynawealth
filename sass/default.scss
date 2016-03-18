@@ -1,0 +1,111 @@
+
+$color-blue: #0080A9;
+$color-gold: #F0B00F;
+$color-white: #FFF;
+
+$border-color: #EEE;
+$link-hover-color: $color-blue;
+
+$navbar-default-link-color: $color-blue;
+$navbar-default-link-hover-color: $color-gold;
+$navbar-default-link-active-color: $color-gold;
+$navbar-default-link-active-bg: transparent;
+$dropdown-link-color: $color-blue;
+$dropdown-link-hover-color: $color-gold;
+$dropdown-link-hover-bg: transparent;
+$dropdown-link-active-color: $color-gold;
+$dropdown-link-active-bg: transparent;
+
+$dropdown-border: #FFF;
+$navbar-default-bg: #FFF;
+$navbar-default-border: #FFF;
+
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700);
+@import "bootstrap";
+@import "navigation";
+@import "slider";
+
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 16px;
+}
+#main{
+	margin: 40px auto;
+}
+.home-grid-list{
+	padding: 50px 0;
+}
+
+.message-from-the-ceo{
+	background-color: $color-gold;
+	color: $color-white;
+	padding: 50px;
+	h3{
+		color: $color-white;
+	}
+}
+
+.single-page-title{
+	background-color: $color-gold;
+	h1{
+		padding: 10px 0;
+		color: $color-white;
+	}
+}
+
+article.category-news:first-child{
+	header{
+		margin-top: 0;
+	}
+}
+article.category-news{
+	.entry-meta{
+		font-size: 13px;
+	}	
+}
+
+.widget{
+	.widget-title{
+		border-bottom: 1px solid $border-color;
+	}
+	ul{
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+	}
+	li{
+		padding: 10px 0;
+		border-bottom: 1px solid $border-color;
+	}
+}
+
+footer{
+	background-color: #313233;
+	padding: 30px 0;
+	font-size: 12px;
+}
+
+h1,h2,h3,h4,h5,.h1,.h2,.h3,.h4{
+	color: $color-blue;
+}
+
+h1,
+.h1 {
+  font-size: 32px;
+}
+
+h2,
+.h2 {
+  font-size: 28px;
+}
+
+h3,
+.h3 {
+  font-size: 24px;
+}
+
+h4,
+.h4 {
+  font-size: 18px;
+}
+
